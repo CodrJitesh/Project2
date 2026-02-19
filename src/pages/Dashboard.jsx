@@ -11,6 +11,7 @@ import QuickStats from '../components/QuickStats';
 import SpendingInsights from '../components/SpendingInsights';
 import RadarWeb from '../components/RadarWeb';
 import AIInsights from '../components/AIInsights';
+import Footer from '../components/Footer';
 import styles from './Dashboard.module.css';
 
 export default function Dashboard() {
@@ -240,6 +241,8 @@ export default function Dashboard() {
             />
           )}
         </div>
+        
+        <Footer />
       </div>
     </div>
   );
