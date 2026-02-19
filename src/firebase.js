@@ -4,6 +4,7 @@ import { getFirestore } from 'firebase/firestore';
 
 // Replace with your Firebase config from Firebase Console
 const firebaseConfig = {
+  apiKey: "AIzaSyASiFTpZS6pUjEet0-fkZgAQWi8eRpdnwE",
   authDomain: "mernisnotmerning.firebaseapp.com",
   databaseURL: "https://mernisnotmerning-default-rtdb.firebaseio.com",
   projectId: "mernisnotmerning",
